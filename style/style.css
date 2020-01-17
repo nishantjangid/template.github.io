@@ -1,0 +1,491 @@
+
+
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+
+}
+.brand-name{
+    
+    margin: 50px;
+}
+
+header ul li a{
+    
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+header  ul li a:hover{
+    
+    color:#0ba39c;
+}
+
+.container .heading{
+    margin-top: 30px;
+}
+.container .heading h1 span{
+    display: inline-block;
+    background-color: #212529;
+    color: white;
+    padding: 15px 28px 12px 28px;
+    text-transform: uppercase;
+    font-family: poller_oneregular;
+    font-weight: bolder;
+}
+
+
+
+
+
+/*  */
+
+section .large-image{
+    
+   
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+}
+
+section .large-image img{
+    
+    width: 100%;
+    background-size: cover;
+    display: block;
+    min-width: 960px;
+    
+}
+section .text-over-image{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-transform: uppercase;
+    
+    
+}
+
+section .text-over-image .first-text h3{
+    
+    font-weight: bold;
+    font-family: 'Poller One', cursive;
+    margin: 20px;
+    background-color:white;
+    padding: 10px 25px 10px 25px;
+    display: inline-block;
+}
+
+section .text-over-image .second-text{
+    
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+    text-transform: lowercase;
+    
+}
+section .text-over-image .second-text .text-border{
+    
+    display: inline-block;
+    background-color:#252525;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+   
+}
+section .text-over-image .second-text .text-border1{
+    
+    display: inline-block;
+    background-color:#252525;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+}
+section .text-over-image .second-text .text-border2{
+    
+    display: inline-block;
+    background-color:#252525;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+section .text-over-image .btnclass{
+    
+    width: 150px;
+    height: 60px;
+    border-radius:0px;
+    margin: -5px 20px 20px 20px;
+}
+
+
+.row{
+    overflow: hidden;
+}
+.row .card{
+    
+    padding: 30px;
+    border:none;
+    
+}
+.row .card img{
+    
+    opacity: 0.5;
+    display: block;
+    border: 2px solid #1a1a1a;
+    
+}
+
+
+.card a.img1:hover img{
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.card a.img2:hover img{
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.card a.img3:hover img{
+    opacity: 1;
+    transition: 0.9s;
+}
+
+
+.row .card .card-title{
+    font-family: poller_oneregular;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+/*  */
+footer{
+    
+    background-color: #1a1a1a;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#footer-background .row .copywright{
+    
+    line-height:40px;
+    color: white;
+    margin-top:45px; 
+    
+}
+
+
+
+#footer-background ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#footer-background ul li{
+    float: right;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    
+    
+}
+#footer-background ul li a{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #1a1a1a;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 25px;
+    color: white;
+    
+}
+
+#footer-background ul li a:hover{
+    background: white;
+    color: black;
+    
+}
+
+header nav span.navbar-toggler-icon{
+      
+      background-image: url("../images/mobile-menu.png");
+    height: 55px;
+    width: 55px;
+    display: none;
+  }
+/* media query of header page */
+
+/* About CSS style */
+
+
+figure{
+    margin-bottom: 20px;
+    
+}
+figure .about_image{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+}
+
+figure .about_image img{
+ 
+    
+    border: 2px solid black;
+}
+
+figure figcaption h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+figure figcaption p
+{
+    color:
+    #252525;
+    line-height: 24px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 300;
+}
+
+/* Gallery CSS style     */
+
+.all-photos ul li a img{
+    border: 2px solid #252525;
+    display: block;
+}
+.all-photos .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.all-photos .gallery a img{
+    flex: 25%;
+    overflow: hidden;
+}
+.all-photos ul.gallery{
+    list-style-type: none;
+    
+}
+.all-photos ul.gallery li{
+    margin: 20px;
+}
+
+.all-photos ul.gallery li a{
+    opacity: .6;
+}
+.all-photos ul.gallery li a:hover{
+    opacity: 1;
+    transition: 0.9s;
+}
+/* CONTACT CSS STYLE */
+input::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: black !important;  
+}
+textarea::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: black !important;  
+}
+
+form .form-group input:hover{
+    border: 2px solid black;
+}
+form{
+    margin-top:40px; 
+}
+form .form-group input{
+    text-align: center;
+    border-radius:0px;
+    height: 65px;
+    border: 2px solid #252525;
+    color: black;
+    margin-top: 30px;
+}
+form .form-group textarea{
+    text-align: center;
+    border-radius:0px;
+    height: 180px;
+    border: 2px solid #252525;
+}
+form .btn{
+    border-radius: 0px;
+    width: 120px;;
+    font-size: 15px;
+    height: 60px;
+    background-color: #252525;
+    color: white;
+    margin: 40px;
+    text-transform: uppercase;
+}
+form .btn:hover{
+    border: 2px solid #252525;
+    background-color: white;
+    color: black;
+}
+
+/* BLOG CSS STYLE */
+.blog{
+    text-align: center;
+}
+.blog-detail{
+    border: 2px solid black;
+    width: 80%;
+    height: auto;
+    position: relative;
+    box-sizing: content-box;
+    margin: 20px 20px 20px 20px;
+ 
+}
+.clearfix{
+    clear: both;
+}
+.blog-detail img{
+    float: left;
+    border: 1px solid black;
+    border-right: 2px solid black;
+}
+
+.row .photo-detail{
+    float: right;
+}
+.row .photo-details h2{
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.row .photo-details p{
+    margin: 20px auto;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+    left: 10px;
+}
+
+.row .photo-details a{
+    background: #000;
+    border: 2px solid black;
+    padding: 2px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px !important;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.row .photo-details a:hover{
+    color: #000;
+    background: #fff;
+}
+
+
+
+@media (max-width:486px){
+    
+    button.navbar-toggler{
+        background:url('../images/mobile-menu.png');
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    
+    header .container .brand-name img{
+        width: 250px;
+        height: auto;
+    }
+   
+}
+
+@media only screen and (max-width:986px){
+    .large-image .text-over-image{
+        width: 100%;
+        padding:0 2%;
+    }
+    .large-image .text-over-image{
+        position: absolute;
+        left: 0px;
+        top: 0;
+    }
+    .large-image .text-over-image .first-text h3{
+        font-size: 20px;
+    }
+    .large-image .text-over-image .second-text span{
+        font-size: 15px;
+    }
+    .large-image .text-over-image
+    button{
+        width: 65px;
+        height: 50px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:768px){
+    .large-image .text-over-image .first-text h3{
+        font-size: 20px;
+        display: inline-block;
+    }
+    .large-image .text-over-image .second-text span{
+        font-size: 15px;
+        display: inline-block;
+    }
+    .large-image .text-over-image
+    button{
+        width: 65px;
+        height: 50px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .footer-background .container ul li{
+        position: absolute;
+        right: 40px;
+    }
+}
